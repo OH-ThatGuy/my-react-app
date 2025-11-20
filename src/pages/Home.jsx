@@ -100,7 +100,7 @@ function Home() {
     };
 
     return (
-        <div className="App">
+        <div className="home-container">
             <header className="title-box">
                 <h1>Dark Souls II Area Explorer</h1>
             </header>

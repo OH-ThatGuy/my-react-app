@@ -5,11 +5,14 @@ const Navbar = () => {
     return (
         <Nav>
             <NavMenu>
-                <NavLink to="/" activeStyle>
+                <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
                     Home
                 </NavLink>
-                <NavLink to="/new" activeStyle>
-                    New Page
+                <NavLink to="/healthbar" className={({ isActive }) => (isActive ? "active" : "")}>
+                    Health Bar
+                </NavLink>
+                <NavLink to="/poison" className={({ isActive }) => (isActive ? "active" : "")}>
+                    Poison
                 </NavLink>
             </NavMenu>
         </Nav>
