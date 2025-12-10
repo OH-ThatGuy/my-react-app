@@ -5,13 +5,13 @@ const Navbar = () => {
     return (
         <Nav>
             <NavMenu>
-                <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
+                <NavLink to="/my-react-app/" className={({ isActive }) => (isActive ? "active" : "")}>
                     Home
                 </NavLink>
-                <NavLink to="/healthbar" className={({ isActive }) => (isActive ? "active" : "")}>
+                <NavLink to="/my-react-app/healthbar" className={({ isActive }) => (isActive ? "active" : "")}>
                     Health Bar
                 </NavLink>
-                <NavLink to="/poison" className={({ isActive }) => (isActive ? "active" : "")}>
+                <NavLink to="/my-react-app/poison" className={({ isActive }) => (isActive ? "active" : "")}>
                     Poison
                 </NavLink>
             </NavMenu>

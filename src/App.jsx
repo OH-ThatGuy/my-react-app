@@ -10,9 +10,9 @@ function App() {
             <Navbar />
             <div className="page-wrapper">
                 <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/healthbar" element={<HealthBar />} />
-                    <Route path="/poison" element={<Poison />} />
+                    <Route path="/my-react-app/" element={<Home />} />
+                    <Route path="/my-react-app/healthbar" element={<HealthBar />} />
+                    <Route path="/my-react-app/poison" element={<Poison />} />
                 </Routes>
             </div>
         </Router>
